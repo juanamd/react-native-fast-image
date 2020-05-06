@@ -1,6 +1,6 @@
 {
     "name": "react-native-fast-image",
-    "version": "8.1.5",
+    "version": "8.1.6",
     "description": "🚩 FastImage, performant React Native image component.",
     "keywords": [
         "cache",
@@ -31,7 +31,7 @@
         "RNFastImage.podspec"
     ],
     "scripts": {
-        "build": "tsdx build && cp src/index.js.flow dist/index.js.flow",
+        "build": "tsdx build && copy src\\index.js.flow dist\\index.js.flow",
         "commit": "git-cz",
         "lint": "tsdx lint src",
         "semantic-release": "semantic-release",
