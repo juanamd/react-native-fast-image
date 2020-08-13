@@ -32,6 +32,7 @@
     ],
     "scripts": {
         "build": "dv-scripts build && cp src/index.js.flow dist/index.js.flow",
+        "buildw": "dv-scripts build && copy src\\index.js.flow dist\\index.js.flow",
         "lint": "dv-scripts lint",
         "release": "dv-scripts release",
         "test": "dv-scripts test"
